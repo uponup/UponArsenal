@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <title>JS和OC交互（JSExport协议）</title>
+    </header>
+    <body>
+        <br>
+        <text>利用WebviewJavaScriptBridge实现js调用oc的原生方法。可以传递多个参数<text>
+        <br>
+        
+        <button type="button" onclick="jsChangeColor()">改变导航栏颜色</button>
+        <script type="text/javascript">
+            function setupWebViewJavascriptBridge(callback) {
+                if (window.WebViewJavascriptBridge) { return callback(WebViewJavascriptBridge); }
+                if (window.WVJBCallbacks) { return window.WVJBCallbacks.push(callback); }
+                window.WVJBCallbacks = [callback]; // 创建一个 WVJBCallbacks 全局属性数组，并将 callback 插入到数组中。
+                var WVJBIframe = document.createElement('iframe'); // 创建一个 iframe 元素
+                WVJBIframe.style.display = 'none'; // 不显示
+                WVJBIframe.src = 'wvjbscheme://__BRIDGE_LOADED__'; // 设置 iframe 的 src 属性
+                document.documentElement.appendChild(WVJBIframe); // 把 iframe 添加到当前文导航上。
+                setTimeout(function() { document.documentElement.removeChild(WVJBIframe) }, 0)
+            }
+            function jsChangeColor(){
+                WebViewJavascriptBridge.callHandler('changeColor',function(dataFromOC) {
+                       alert("JS 调用了 OC 注册的 colorClick 方法\n" + dataFromOC);
+                       document.getElementById("returnValue").value = dataFromOC;
+                })
+            }
+            // 这里主要是注册 OC 将要调用的 JS 方法。
+            setupWebViewJavascriptBridge(function(bridge) {   bridge.registerHandler('changeBGColor',function(data,responseCallback){
+                    alert(data);
+                    document.body.style.backgroundColor = "orange";
+                    document.getElementById("returnValue").value = data;
+                    responseCallback({data:'颜色已经改变', from: 'JS'});
+                });
+            });
+        </script>
+    </body>
+</html>

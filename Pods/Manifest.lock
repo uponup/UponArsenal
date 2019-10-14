@@ -1,0 +1,25 @@
+PODS:
+  - JPFoundation (0.1.0)
+  - JPKit (0.1.4)
+  - WebViewJavascriptBridge (6.0.3)
+
+DEPENDENCIES:
+  - JPFoundation
+  - JPKit
+  - WebViewJavascriptBridge
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - WebViewJavascriptBridge
+  https://github.com/uponup/JPSpec.git:
+    - JPFoundation
+    - JPKit
+
+SPEC CHECKSUMS:
+  JPFoundation: c558565f4ca2fc9d20d45ef41046fdcd74bed5ab
+  JPKit: 42a84c3612cd0b133cf2785ba4e5c0fb0ef195b6
+  WebViewJavascriptBridge: 7f5bc4d3581e672e8f32bd0f812d54bc69bb8e29
+
+PODFILE CHECKSUM: b5432e6aacb232ce2dd8e6c22356684c80a9f9fd
+
+COCOAPODS: 1.8.0

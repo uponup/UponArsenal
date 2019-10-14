@@ -1,0 +1,38 @@
+//
+//  UIWebview与JS的交互.m
+//  面试之道
+//
+//  Created by 龙格 on 2019/1/10.
+//  Copyright © 2019年 Paul Gao. All rights reserved.
+//
+
+UIWebView与JS交互的时候
+
+1、通过一个JSContext获取UIWebView的JS执行上下文，
+2、然后通过这个上下文，进行OC和JS的交互
+3、JSExport协议
+
+
+WKWebView与JS交互的时候
+//这是oc响应js的方法
+1、先将JS执行函数注册，configuration.userContentController
+2、JS中调用window.webkit.messageHandlers.方法名.postMessage('', '')
+3、在WKScriptMessageHandler协议的回调方法中处理
+
+//这是oc调用js的方法
+1、调用evaluateJavaScript方法
+2、然后在WKUIDelegate协议中实现响应的alertPanel、confirmPanel和TextInputPanel三个代理方法
+
+
+第三方框架有：
+一、WebViewJavaScriptBridge可以实现UIWebview、WKWebView与JS的交互
+通过bridge来进行js和oc的交互，操作关键就是js和oc分别在bridge中注册方法
+    源码解析：
+    WebViewJavascriptBridgeBase: bridge初始化和消息处理的核心类
+    WebViewJavascriptBridge：桥接入口，针对不同的webview（UIWebView、WKWebView）进行分发
+    WKWebViewJavascriptBridge：
+    WebViewJavascriptBridge_JS：
+
+二、JSBridge
+
+三、Cordova

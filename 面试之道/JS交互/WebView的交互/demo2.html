@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <title>JS和OC交互</title>
+    </header>
+    <body>
+        <br>
+        <text>利用WKWebView协议实现js调用oc的原生方法。可以传递多个参数</text>
+        <br>
+        
+        <button type="button" onclick="callOCMethod()">点击调用oc方法</button>
+        <button type="button" onclick="callOCMethodTwo()">点击调用oc的方法，两个参数</button>
+        <script type="text/javascript">
+            function callOCMethod(){
+                window.webkit.messageHandlers.jsFunc.postMessage({name: "Peter", age: 22});
+            }
+            function callOCMethodTwo(){
+            window.webkit.messageHandlers.jsFuncTwo.postMessage({name: "Tom", age: 18});
+            }
+            function alertAction(message) {
+                alert(message);
+            }
+        </script>
+    </body>
+</html>

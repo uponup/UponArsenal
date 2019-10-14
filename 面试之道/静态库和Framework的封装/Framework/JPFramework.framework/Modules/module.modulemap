@@ -1,0 +1,6 @@
+framework module JPFramework {
+  umbrella header "JPFramework.h"
+
+  export *
+  module * { export * }
+}

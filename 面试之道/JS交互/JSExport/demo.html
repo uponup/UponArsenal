@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <title>JS和OC交互（JSExport协议）</title>
+    </header>
+    <body>
+        <br>
+        <text>利用JSPoer协议实现js调用oc的原生方法。可以传递多个参数<text>
+        <br>
+        <button type="button" onclick="jsCallMethod()">js调，不传参数</button>
+        <button type="button" onclick="jsCallMethodWithParam()">js调，一个参数</button>
+        <button type="button" onclick="jsCallMethodWithTwoParam()">js调，两个参数</button>
+        <br><br>
+        <button type="button" onclick="jsContextDemoMethod">hello</button>
+        <br><br>
+        <button type"button" onclick="getValueFromOC()">从原生iOS拿值</button>
+    
+        <script type="text/javascript">
+            //pxzline中调用的方法都是遵循JSExport协议的CustomJSProtocol协议的方法，这是oc和js交互的关键
+            function jsCallMethod(){
+                pxzline.jsCallMethod();
+            }
+            function jsCallMethodWithParam(){
+                pxzline.jsCallMethodWithParam('A');
+            }
+            function jsCallMethodWithTwoParam(){
+                pxzline.jsCallMethodWithParamAndParamTwo('A', 'B');
+            }
+            //js想获取oc代码中的参数的时候，可以先调用协议方法sendValueToHtml，然后在回调中利用JSContext将方法和参数注入js
+            function getValueFromOC(){
+                pxzline.sendValueToHtml()
+            }
+        
+            //OC调用的
+            function methodForOC(){
+                alert('这个是Html的方法，OC调的到吗？');
+            }
+            //OC调用，带参数
+            function getUsernameAndAge(ocValueOne,ocValueTwo){
+                alert('名字：'+ocValueOne+',年龄：'+ocValueTwo);
+            }
+        </script>
+    </body>
+</html>

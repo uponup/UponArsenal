@@ -1,0 +1,987 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		013F7A80A20B407BAF8BAABA0499AB34 /* UIFont+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = F716B5494ED58F0EB368221F4C3E5655 /* UIFont+Extend.m */; };
+		02BBD132E8D3712B8FF35B2CD6930DCC /* ic_messages_voice_green40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34C87D43A7DE7E4593F02E397AAC64CF /* ic_messages_voice_green40@2x.png */; };
+		03B6D19285B7A681891E6352EED59819 /* Pods-面试之道-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D70530185B73078A6C790AACEEA52E77 /* Pods-面试之道-dummy.m */; };
+		0E7ABFCD528DDEFABE9EA395163F4928 /* WebViewJavascriptBridgeBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 851A26197C416BBE0CF5267FE517E647 /* WebViewJavascriptBridgeBase.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		190277EC94224ABA898F7D1F691788C7 /* WebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 88ADD348EC0268130AD5F56732AC54C4 /* WebViewJavascriptBridge.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2268BDEDA3D7605197573C8BEC14D4C9 /* ic_messages_voice_green40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA6846E0CE1B6444111FA426D5E22380 /* ic_messages_voice_green40@3x.png */; };
+		2419E7947D5B4B4E50BB5924C2E3801F /* UIFont+Extend.h in Headers */ = {isa = PBXBuildFile; fileRef = 50734EAE452D3FA16741CD8622B221EF /* UIFont+Extend.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2AACEEC0AC219A9B95A3351E3E878794 /* JPFileManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C7C915EAD7ED86480DE072883E0BCD4 /* JPFileManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2C6DFB3ABC6E899954550EEDC931E6EB /* UIView+Frame.h in Headers */ = {isa = PBXBuildFile; fileRef = C3F941785512668DA5A02D0492890373 /* UIView+Frame.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		30FFC6DDCE05F76147281E07CD85379A /* WKWebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BFEB89B8093736D2FEA8B1DBE0A9B98 /* WKWebViewJavascriptBridge.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		3A34B0A0DD4F41DF76CFE2ACA18ACCA8 /* WebViewJavascriptBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = 1956B8A263597BCEA44C9BF28E0E78A2 /* WebViewJavascriptBridge.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3ADCCFE74E3A369053BFDC0B703FFDCF /* UIColor+Extend.h in Headers */ = {isa = PBXBuildFile; fileRef = 46E1E9D564EC75D800A633E20EB276FD /* UIColor+Extend.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		41FC21FB851BBAA3861F225E8E011A77 /* WebViewJavascriptBridge-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FDDFD89197AEDB7E54916856EEE3360 /* WebViewJavascriptBridge-dummy.m */; };
+		44F18D0C01A10EE20045CB3185EF2C88 /* banner@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE027F890C6BA2BC6B8F7E0952BEB032 /* banner@3x.png */; };
+		4B197DA53EC5BEB3588399384E81B0AF /* WebViewJavascriptBridgeBase.m in Sources */ = {isa = PBXBuildFile; fileRef = EDAB104DBA1E2440CEA05901CF345B5D /* WebViewJavascriptBridgeBase.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		720BE3551435645F807513102DD2885C /* ic_call_mc56@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 28BA22BA4D4E01B0484F8063B7F03B32 /* ic_call_mc56@3x.png */; };
+		721C85198AD814256FF1DADBF27A83C9 /* img_purchase01@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27E2E81694AD28E077CDB00C10FD3334 /* img_purchase01@2x.png */; };
+		7B471121B978B917FC846102E32CBCC8 /* JPFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E677578462636998308486795344D06 /* JPFileManager.m */; };
+		886183C5FEB753D5D180FDC173E2B77A /* WKWebViewJavascriptBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D6712E7495F3A7BC3FC7758F5AF192C /* WKWebViewJavascriptBridge.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		89FDD7234620CD1318F57912BC3A7F01 /* JPKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 11296E48A7017F598BDDEAF133200E1D /* JPKit.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8C17B9FAEC064FEF2C9C08F6CA77C66C /* JPKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D207A7FACAE662C565F5D690DA920C46 /* JPKit-dummy.m */; };
+		97C8121365790A9AD1127C056001CC2A /* banner@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DEDB69429D88B7ADB70BE90671A53F5A /* banner@2x.png */; };
+		9EBC7BE2056E891B0839B3AA72CC9DDF /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB4B0193E194EF136905FCE68095684 /* UIView+Frame.m */; };
+		9F0A93D6A539A38470DD6FEAABB6D27C /* img_purchase01@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AEEE8A8431EFF911E32E5A77455861BB /* img_purchase01@3x.png */; };
+		A427F95532992CE84DFEE6E40653485D /* bubble_gray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB96993BFE467C92385CAE2F99710D3B /* bubble_gray@2x.png */; };
+		CE6B67F6FDD300320675DF931A88FE30 /* ic_call_mc56@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C319582A5ADDD86DD69F04D5F6998B58 /* ic_call_mc56@2x.png */; };
+		DD9D8688DE2A2DE4190BCD81CF8A2674 /* JPFoundation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CEDB68ACEA949BAFAF4F521A438269 /* JPFoundation-dummy.m */; };
+		DE309E2A1C67EB303CC1FAA709A58E23 /* WebViewJavascriptBridge_JS.h in Headers */ = {isa = PBXBuildFile; fileRef = DE5DBE93579C40B86532F1291FD04278 /* WebViewJavascriptBridge_JS.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E5C1C1FA174DE7A0E66867C40937C46B /* WebViewJavascriptBridge_JS.m in Sources */ = {isa = PBXBuildFile; fileRef = D59ABEBA7B9F3960A0BF4712E4802C73 /* WebViewJavascriptBridge_JS.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F7AEB03039641820F8F2E13213CFC448 /* bubble_gray@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F5DAD98AE8F2BEAEDA30EF0BBCE73843 /* bubble_gray@3x.png */; };
+		F88677C9BF4983138EECFF4B85FCC90C /* UIColor+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 4489E5E00F6DE6B5544A0517FA350487 /* UIColor+Extend.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		69921D082D586E10D374F1E052DD206B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8749C9646E58769B0B27F900009CCACC;
+			remoteInfo = "JPKit-JPKit";
+		};
+		BF96A77E786524B11F498A8C137CD473 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 706B78E1BE2D4CA3D059ECD89B589583;
+			remoteInfo = JPFoundation;
+		};
+		F3D806D890E85840CB7DD08E268E0FC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6EE36F386DBFD58A8A5B22D65791ABB;
+			remoteInfo = WebViewJavascriptBridge;
+		};
+		F839A9539CE8B8432C49FAFFEAC39AC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F74D66E8A4725BA821F24D4B146E5EEF;
+			remoteInfo = JPKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0753D8EE7B4DB1AD165BCA1C3F70BDE4 /* JPKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JPKit-prefix.pch"; sourceTree = "<group>"; };
+		0C7C915EAD7ED86480DE072883E0BCD4 /* JPFileManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JPFileManager.h; path = JPFoundation/Classes/JPFileManager.h; sourceTree = "<group>"; };
+		0CFD01DFD9FE55F36CC06118E8FE8231 /* Pods-面试之道.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-面试之道.debug.xcconfig"; sourceTree = "<group>"; };
+		0D6712E7495F3A7BC3FC7758F5AF192C /* WKWebViewJavascriptBridge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WKWebViewJavascriptBridge.h; path = WebViewJavascriptBridge/WKWebViewJavascriptBridge.h; sourceTree = "<group>"; };
+		0E677578462636998308486795344D06 /* JPFileManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JPFileManager.m; path = JPFoundation/Classes/JPFileManager.m; sourceTree = "<group>"; };
+		11296E48A7017F598BDDEAF133200E1D /* JPKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JPKit.h; path = JPKit/Classes/JPKit.h; sourceTree = "<group>"; };
+		16C599FBA8340C99BFFBF28A117634C6 /* JPFoundation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JPFoundation-prefix.pch"; sourceTree = "<group>"; };
+		1956B8A263597BCEA44C9BF28E0E78A2 /* WebViewJavascriptBridge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WebViewJavascriptBridge.h; path = WebViewJavascriptBridge/WebViewJavascriptBridge.h; sourceTree = "<group>"; };
+		1C571C8C559283062E42BC4B2F756BB8 /* WebViewJavascriptBridge.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WebViewJavascriptBridge.xcconfig; sourceTree = "<group>"; };
+		1D0DEA16D503818ABA04B9DD390CD6C9 /* Pods-面试之道-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-面试之道-resources.sh"; sourceTree = "<group>"; };
+		27E2E81694AD28E077CDB00C10FD3334 /* img_purchase01@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "img_purchase01@2x.png"; path = "JPKit/Assets/img_purchase01@2x.png"; sourceTree = "<group>"; };
+		28BA22BA4D4E01B0484F8063B7F03B32 /* ic_call_mc56@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_call_mc56@3x.png"; path = "JPKit/Assets/ic_call_mc56@3x.png"; sourceTree = "<group>"; };
+		34C87D43A7DE7E4593F02E397AAC64CF /* ic_messages_voice_green40@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_messages_voice_green40@2x.png"; path = "JPKit/Assets/ic_messages_voice_green40@2x.png"; sourceTree = "<group>"; };
+		4098FC607CF5F46464D3FD4B4590396D /* Pods-面试之道.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-面试之道.release.xcconfig"; sourceTree = "<group>"; };
+		4479A2C466269974DB14D0DC01A07BD7 /* WebViewJavascriptBridge-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WebViewJavascriptBridge-prefix.pch"; sourceTree = "<group>"; };
+		4489E5E00F6DE6B5544A0517FA350487 /* UIColor+Extend.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Extend.m"; path = "JPKit/Classes/UIColor+Extend.m"; sourceTree = "<group>"; };
+		46E1E9D564EC75D800A633E20EB276FD /* UIColor+Extend.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+Extend.h"; path = "JPKit/Classes/UIColor+Extend.h"; sourceTree = "<group>"; };
+		479BF665EE279B97625746AF6A943AC7 /* ResourceBundle-JPKit-JPKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-JPKit-JPKit-Info.plist"; sourceTree = "<group>"; };
+		49E5CDAF150565FBCE95FACFB56AA2D7 /* libPods-面试之道.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-面试之道.a"; path = "libPods-面试之道.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BFEB89B8093736D2FEA8B1DBE0A9B98 /* WKWebViewJavascriptBridge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WKWebViewJavascriptBridge.m; path = WebViewJavascriptBridge/WKWebViewJavascriptBridge.m; sourceTree = "<group>"; };
+		4FDDFD89197AEDB7E54916856EEE3360 /* WebViewJavascriptBridge-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WebViewJavascriptBridge-dummy.m"; sourceTree = "<group>"; };
+		50734EAE452D3FA16741CD8622B221EF /* UIFont+Extend.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIFont+Extend.h"; path = "JPKit/Classes/UIFont+Extend.h"; sourceTree = "<group>"; };
+		762EB44E61783B32449E589ADB2061C7 /* libJPKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libJPKit.a; path = libJPKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		851A26197C416BBE0CF5267FE517E647 /* WebViewJavascriptBridgeBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WebViewJavascriptBridgeBase.h; path = WebViewJavascriptBridge/WebViewJavascriptBridgeBase.h; sourceTree = "<group>"; };
+		88ADD348EC0268130AD5F56732AC54C4 /* WebViewJavascriptBridge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WebViewJavascriptBridge.m; path = WebViewJavascriptBridge/WebViewJavascriptBridge.m; sourceTree = "<group>"; };
+		8DDAF9C7DE68B87CB4D4D2EF10E89DA3 /* JPFoundation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JPFoundation.xcconfig; sourceTree = "<group>"; };
+		8EB68B7943515E4F13CC6BE690FFD564 /* libWebViewJavascriptBridge.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libWebViewJavascriptBridge.a; path = libWebViewJavascriptBridge.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AEEE8A8431EFF911E32E5A77455861BB /* img_purchase01@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "img_purchase01@3x.png"; path = "JPKit/Assets/img_purchase01@3x.png"; sourceTree = "<group>"; };
+		C319582A5ADDD86DD69F04D5F6998B58 /* ic_call_mc56@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_call_mc56@2x.png"; path = "JPKit/Assets/ic_call_mc56@2x.png"; sourceTree = "<group>"; };
+		C3F941785512668DA5A02D0492890373 /* UIView+Frame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Frame.h"; path = "JPKit/Classes/UIView+Frame.h"; sourceTree = "<group>"; };
+		CA6846E0CE1B6444111FA426D5E22380 /* ic_messages_voice_green40@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_messages_voice_green40@3x.png"; path = "JPKit/Assets/ic_messages_voice_green40@3x.png"; sourceTree = "<group>"; };
+		CB96993BFE467C92385CAE2F99710D3B /* bubble_gray@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "bubble_gray@2x.png"; path = "JPKit/Assets/bubble_gray@2x.png"; sourceTree = "<group>"; };
+		CC6D7BEC43E16C318FDFC8EC75808938 /* JPKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JPKit.xcconfig; sourceTree = "<group>"; };
+		CE027F890C6BA2BC6B8F7E0952BEB032 /* banner@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "banner@3x.png"; path = "JPKit/Assets/banner@3x.png"; sourceTree = "<group>"; };
+		D207A7FACAE662C565F5D690DA920C46 /* JPKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JPKit-dummy.m"; sourceTree = "<group>"; };
+		D4CEDB68ACEA949BAFAF4F521A438269 /* JPFoundation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JPFoundation-dummy.m"; sourceTree = "<group>"; };
+		D59ABEBA7B9F3960A0BF4712E4802C73 /* WebViewJavascriptBridge_JS.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WebViewJavascriptBridge_JS.m; path = WebViewJavascriptBridge/WebViewJavascriptBridge_JS.m; sourceTree = "<group>"; };
+		D615ED8D10FDF9A109C84B1C751525E2 /* Pods-面试之道-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-面试之道-acknowledgements.plist"; sourceTree = "<group>"; };
+		D70530185B73078A6C790AACEEA52E77 /* Pods-面试之道-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-面试之道-dummy.m"; sourceTree = "<group>"; };
+		DB4B69103E3DFB30A22500077A1F58D3 /* Pods-面试之道-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-面试之道-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DB8812CC2C73A04FD40AE8426DD05B68 /* libJPFoundation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libJPFoundation.a; path = libJPFoundation.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE5DBE93579C40B86532F1291FD04278 /* WebViewJavascriptBridge_JS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WebViewJavascriptBridge_JS.h; path = WebViewJavascriptBridge/WebViewJavascriptBridge_JS.h; sourceTree = "<group>"; };
+		DEDB69429D88B7ADB70BE90671A53F5A /* banner@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "banner@2x.png"; path = "JPKit/Assets/banner@2x.png"; sourceTree = "<group>"; };
+		E89E2F295DA8FEA48F25631AFE7BB10B /* JPKit.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = JPKit.bundle; path = "JPKit-JPKit.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDAB104DBA1E2440CEA05901CF345B5D /* WebViewJavascriptBridgeBase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WebViewJavascriptBridgeBase.m; path = WebViewJavascriptBridge/WebViewJavascriptBridgeBase.m; sourceTree = "<group>"; };
+		F5DAD98AE8F2BEAEDA30EF0BBCE73843 /* bubble_gray@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "bubble_gray@3x.png"; path = "JPKit/Assets/bubble_gray@3x.png"; sourceTree = "<group>"; };
+		F716B5494ED58F0EB368221F4C3E5655 /* UIFont+Extend.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIFont+Extend.m"; path = "JPKit/Classes/UIFont+Extend.m"; sourceTree = "<group>"; };
+		FAB4B0193E194EF136905FCE68095684 /* UIView+Frame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Frame.m"; path = "JPKit/Classes/UIView+Frame.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42B1A7877748B3B4C9CDE87832519F9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AAB67CAD677D25021702707EACE8FAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6379B6A6721BB3371DD97319CAD11DBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85C2B554CDE117BE599F5AB9C5D89A5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD47651C5169CFDEE1CFDB294E2C6728 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F7C78D1B94AB282DC1E7FBBEB2D4371 /* Pods-面试之道 */ = {
+			isa = PBXGroup;
+			children = (
+				DB4B69103E3DFB30A22500077A1F58D3 /* Pods-面试之道-acknowledgements.markdown */,
+				D615ED8D10FDF9A109C84B1C751525E2 /* Pods-面试之道-acknowledgements.plist */,
+				D70530185B73078A6C790AACEEA52E77 /* Pods-面试之道-dummy.m */,
+				1D0DEA16D503818ABA04B9DD390CD6C9 /* Pods-面试之道-resources.sh */,
+				0CFD01DFD9FE55F36CC06118E8FE8231 /* Pods-面试之道.debug.xcconfig */,
+				4098FC607CF5F46464D3FD4B4590396D /* Pods-面试之道.release.xcconfig */,
+			);
+			name = "Pods-面试之道";
+			path = "Target Support Files/Pods-面试之道";
+			sourceTree = "<group>";
+		};
+		548942D03538629A50D053D85D3D8E90 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0F7C78D1B94AB282DC1E7FBBEB2D4371 /* Pods-面试之道 */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		586597C63DAA34ADB69C4E471B111802 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D00797FAC21D94A90CD4709B10619495 /* JPFoundation */,
+				6A2230A2E46216AE8259F1F2547D2D70 /* JPKit */,
+				B4A66B3405DB93110617646E20703E8C /* WebViewJavascriptBridge */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		675EFABC73C3F3F414407C99E2D69939 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC6D7BEC43E16C318FDFC8EC75808938 /* JPKit.xcconfig */,
+				D207A7FACAE662C565F5D690DA920C46 /* JPKit-dummy.m */,
+				0753D8EE7B4DB1AD165BCA1C3F70BDE4 /* JPKit-prefix.pch */,
+				479BF665EE279B97625746AF6A943AC7 /* ResourceBundle-JPKit-JPKit-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JPKit";
+			sourceTree = "<group>";
+		};
+		6A2230A2E46216AE8259F1F2547D2D70 /* JPKit */ = {
+			isa = PBXGroup;
+			children = (
+				11296E48A7017F598BDDEAF133200E1D /* JPKit.h */,
+				46E1E9D564EC75D800A633E20EB276FD /* UIColor+Extend.h */,
+				4489E5E00F6DE6B5544A0517FA350487 /* UIColor+Extend.m */,
+				50734EAE452D3FA16741CD8622B221EF /* UIFont+Extend.h */,
+				F716B5494ED58F0EB368221F4C3E5655 /* UIFont+Extend.m */,
+				C3F941785512668DA5A02D0492890373 /* UIView+Frame.h */,
+				FAB4B0193E194EF136905FCE68095684 /* UIView+Frame.m */,
+				A9844D266E061F03CE8B4910B73FB0BD /* Resources */,
+				675EFABC73C3F3F414407C99E2D69939 /* Support Files */,
+			);
+			name = JPKit;
+			path = JPKit;
+			sourceTree = "<group>";
+		};
+		7D1E3B0B30A5C3CB556241D79ECB4924 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1C571C8C559283062E42BC4B2F756BB8 /* WebViewJavascriptBridge.xcconfig */,
+				4FDDFD89197AEDB7E54916856EEE3360 /* WebViewJavascriptBridge-dummy.m */,
+				4479A2C466269974DB14D0DC01A07BD7 /* WebViewJavascriptBridge-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/WebViewJavascriptBridge";
+			sourceTree = "<group>";
+		};
+		A9844D266E061F03CE8B4910B73FB0BD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DEDB69429D88B7ADB70BE90671A53F5A /* banner@2x.png */,
+				CE027F890C6BA2BC6B8F7E0952BEB032 /* banner@3x.png */,
+				CB96993BFE467C92385CAE2F99710D3B /* bubble_gray@2x.png */,
+				F5DAD98AE8F2BEAEDA30EF0BBCE73843 /* bubble_gray@3x.png */,
+				C319582A5ADDD86DD69F04D5F6998B58 /* ic_call_mc56@2x.png */,
+				28BA22BA4D4E01B0484F8063B7F03B32 /* ic_call_mc56@3x.png */,
+				34C87D43A7DE7E4593F02E397AAC64CF /* ic_messages_voice_green40@2x.png */,
+				CA6846E0CE1B6444111FA426D5E22380 /* ic_messages_voice_green40@3x.png */,
+				27E2E81694AD28E077CDB00C10FD3334 /* img_purchase01@2x.png */,
+				AEEE8A8431EFF911E32E5A77455861BB /* img_purchase01@3x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B4220917FDD2B388565259012F7F7032 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8DDAF9C7DE68B87CB4D4D2EF10E89DA3 /* JPFoundation.xcconfig */,
+				D4CEDB68ACEA949BAFAF4F521A438269 /* JPFoundation-dummy.m */,
+				16C599FBA8340C99BFFBF28A117634C6 /* JPFoundation-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JPFoundation";
+			sourceTree = "<group>";
+		};
+		B4A66B3405DB93110617646E20703E8C /* WebViewJavascriptBridge */ = {
+			isa = PBXGroup;
+			children = (
+				1956B8A263597BCEA44C9BF28E0E78A2 /* WebViewJavascriptBridge.h */,
+				88ADD348EC0268130AD5F56732AC54C4 /* WebViewJavascriptBridge.m */,
+				DE5DBE93579C40B86532F1291FD04278 /* WebViewJavascriptBridge_JS.h */,
+				D59ABEBA7B9F3960A0BF4712E4802C73 /* WebViewJavascriptBridge_JS.m */,
+				851A26197C416BBE0CF5267FE517E647 /* WebViewJavascriptBridgeBase.h */,
+				EDAB104DBA1E2440CEA05901CF345B5D /* WebViewJavascriptBridgeBase.m */,
+				0D6712E7495F3A7BC3FC7758F5AF192C /* WKWebViewJavascriptBridge.h */,
+				4BFEB89B8093736D2FEA8B1DBE0A9B98 /* WKWebViewJavascriptBridge.m */,
+				7D1E3B0B30A5C3CB556241D79ECB4924 /* Support Files */,
+			);
+			name = WebViewJavascriptBridge;
+			path = WebViewJavascriptBridge;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				586597C63DAA34ADB69C4E471B111802 /* Pods */,
+				E56A6D0C7DE59A2BDF38170A51CBC02D /* Products */,
+				548942D03538629A50D053D85D3D8E90 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D00797FAC21D94A90CD4709B10619495 /* JPFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				0C7C915EAD7ED86480DE072883E0BCD4 /* JPFileManager.h */,
+				0E677578462636998308486795344D06 /* JPFileManager.m */,
+				B4220917FDD2B388565259012F7F7032 /* Support Files */,
+			);
+			name = JPFoundation;
+			path = JPFoundation;
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E56A6D0C7DE59A2BDF38170A51CBC02D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E89E2F295DA8FEA48F25631AFE7BB10B /* JPKit.bundle */,
+				DB8812CC2C73A04FD40AE8426DD05B68 /* libJPFoundation.a */,
+				762EB44E61783B32449E589ADB2061C7 /* libJPKit.a */,
+				49E5CDAF150565FBCE95FACFB56AA2D7 /* libPods-面试之道.a */,
+				8EB68B7943515E4F13CC6BE690FFD564 /* libWebViewJavascriptBridge.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3F4C26CB692D6486AE7E4486299254CF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40771FEE7B5E0649DE5340709809A407 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89FDD7234620CD1318F57912BC3A7F01 /* JPKit.h in Headers */,
+				3ADCCFE74E3A369053BFDC0B703FFDCF /* UIColor+Extend.h in Headers */,
+				2419E7947D5B4B4E50BB5924C2E3801F /* UIFont+Extend.h in Headers */,
+				2C6DFB3ABC6E899954550EEDC931E6EB /* UIView+Frame.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E874216E739610278C433B30BAC34EA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AACEEC0AC219A9B95A3351E3E878794 /* JPFileManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C07A9879616645222B79B4BF4C7A2851 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A34B0A0DD4F41DF76CFE2ACA18ACCA8 /* WebViewJavascriptBridge.h in Headers */,
+				DE309E2A1C67EB303CC1FAA709A58E23 /* WebViewJavascriptBridge_JS.h in Headers */,
+				0E7ABFCD528DDEFABE9EA395163F4928 /* WebViewJavascriptBridgeBase.h in Headers */,
+				886183C5FEB753D5D180FDC173E2B77A /* WKWebViewJavascriptBridge.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		706B78E1BE2D4CA3D059ECD89B589583 /* JPFoundation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E73C2995FC54D359B833D068A0DBC7D /* Build configuration list for PBXNativeTarget "JPFoundation" */;
+			buildPhases = (
+				6E874216E739610278C433B30BAC34EA /* Headers */,
+				CE60C9EE90C24886CF346EACE74E6082 /* Sources */,
+				42B1A7877748B3B4C9CDE87832519F9B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JPFoundation;
+			productName = JPFoundation;
+			productReference = DB8812CC2C73A04FD40AE8426DD05B68 /* libJPFoundation.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8749C9646E58769B0B27F900009CCACC /* JPKit-JPKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52FCF47262B737BD1404363AC9797D87 /* Build configuration list for PBXNativeTarget "JPKit-JPKit" */;
+			buildPhases = (
+				1BDD4F1B2E4123B132DAED75A176A2AE /* Sources */,
+				5AAB67CAD677D25021702707EACE8FAF /* Frameworks */,
+				59EE5AE9919B49430454C145CF4A7D4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JPKit-JPKit";
+			productName = "JPKit-JPKit";
+			productReference = E89E2F295DA8FEA48F25631AFE7BB10B /* JPKit.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		A59AD9EA4C54B096057C464F46475570 /* Pods-面试之道 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DC81BF5DDDFFF1E392A92A60F1BD51B /* Build configuration list for PBXNativeTarget "Pods-面试之道" */;
+			buildPhases = (
+				3F4C26CB692D6486AE7E4486299254CF /* Headers */,
+				0CBE01F2229955A6F313FCECA0BA6586 /* Sources */,
+				CD47651C5169CFDEE1CFDB294E2C6728 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5E61F3C276C90FD92AD3671579E2C41 /* PBXTargetDependency */,
+				55CF89FB8695A8015A84BC7B6FB49EA6 /* PBXTargetDependency */,
+				70EE24B424A8D7F93659AC3F80000972 /* PBXTargetDependency */,
+			);
+			name = "Pods-面试之道";
+			productName = "Pods-面试之道";
+			productReference = 49E5CDAF150565FBCE95FACFB56AA2D7 /* libPods-面试之道.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D6EE36F386DBFD58A8A5B22D65791ABB /* WebViewJavascriptBridge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0826747FEF83231334F91041D4085D73 /* Build configuration list for PBXNativeTarget "WebViewJavascriptBridge" */;
+			buildPhases = (
+				C07A9879616645222B79B4BF4C7A2851 /* Headers */,
+				40D93E9247875AC89F28FB3721905169 /* Sources */,
+				85C2B554CDE117BE599F5AB9C5D89A5B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WebViewJavascriptBridge;
+			productName = WebViewJavascriptBridge;
+			productReference = 8EB68B7943515E4F13CC6BE690FFD564 /* libWebViewJavascriptBridge.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F74D66E8A4725BA821F24D4B146E5EEF /* JPKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77025D3A879B71A9EA545982E1CD1277 /* Build configuration list for PBXNativeTarget "JPKit" */;
+			buildPhases = (
+				40771FEE7B5E0649DE5340709809A407 /* Headers */,
+				F70DC4635F13F99D961F963D918F4C9C /* Sources */,
+				6379B6A6721BB3371DD97319CAD11DBC /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2AB7A3956676E74105C65297A36C6AF9 /* PBXTargetDependency */,
+			);
+			name = JPKit;
+			productName = JPKit;
+			productReference = 762EB44E61783B32449E589ADB2061C7 /* libJPKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = E56A6D0C7DE59A2BDF38170A51CBC02D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				706B78E1BE2D4CA3D059ECD89B589583 /* JPFoundation */,
+				F74D66E8A4725BA821F24D4B146E5EEF /* JPKit */,
+				8749C9646E58769B0B27F900009CCACC /* JPKit-JPKit */,
+				A59AD9EA4C54B096057C464F46475570 /* Pods-面试之道 */,
+				D6EE36F386DBFD58A8A5B22D65791ABB /* WebViewJavascriptBridge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		59EE5AE9919B49430454C145CF4A7D4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97C8121365790A9AD1127C056001CC2A /* banner@2x.png in Resources */,
+				44F18D0C01A10EE20045CB3185EF2C88 /* banner@3x.png in Resources */,
+				A427F95532992CE84DFEE6E40653485D /* bubble_gray@2x.png in Resources */,
+				F7AEB03039641820F8F2E13213CFC448 /* bubble_gray@3x.png in Resources */,
+				CE6B67F6FDD300320675DF931A88FE30 /* ic_call_mc56@2x.png in Resources */,
+				720BE3551435645F807513102DD2885C /* ic_call_mc56@3x.png in Resources */,
+				02BBD132E8D3712B8FF35B2CD6930DCC /* ic_messages_voice_green40@2x.png in Resources */,
+				2268BDEDA3D7605197573C8BEC14D4C9 /* ic_messages_voice_green40@3x.png in Resources */,
+				721C85198AD814256FF1DADBF27A83C9 /* img_purchase01@2x.png in Resources */,
+				9F0A93D6A539A38470DD6FEAABB6D27C /* img_purchase01@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0CBE01F2229955A6F313FCECA0BA6586 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03B6D19285B7A681891E6352EED59819 /* Pods-面试之道-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BDD4F1B2E4123B132DAED75A176A2AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40D93E9247875AC89F28FB3721905169 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41FC21FB851BBAA3861F225E8E011A77 /* WebViewJavascriptBridge-dummy.m in Sources */,
+				190277EC94224ABA898F7D1F691788C7 /* WebViewJavascriptBridge.m in Sources */,
+				E5C1C1FA174DE7A0E66867C40937C46B /* WebViewJavascriptBridge_JS.m in Sources */,
+				4B197DA53EC5BEB3588399384E81B0AF /* WebViewJavascriptBridgeBase.m in Sources */,
+				30FFC6DDCE05F76147281E07CD85379A /* WKWebViewJavascriptBridge.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE60C9EE90C24886CF346EACE74E6082 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B471121B978B917FC846102E32CBCC8 /* JPFileManager.m in Sources */,
+				DD9D8688DE2A2DE4190BCD81CF8A2674 /* JPFoundation-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F70DC4635F13F99D961F963D918F4C9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C17B9FAEC064FEF2C9C08F6CA77C66C /* JPKit-dummy.m in Sources */,
+				F88677C9BF4983138EECFF4B85FCC90C /* UIColor+Extend.m in Sources */,
+				013F7A80A20B407BAF8BAABA0499AB34 /* UIFont+Extend.m in Sources */,
+				9EBC7BE2056E891B0839B3AA72CC9DDF /* UIView+Frame.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2AB7A3956676E74105C65297A36C6AF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "JPKit-JPKit";
+			target = 8749C9646E58769B0B27F900009CCACC /* JPKit-JPKit */;
+			targetProxy = 69921D082D586E10D374F1E052DD206B /* PBXContainerItemProxy */;
+		};
+		55CF89FB8695A8015A84BC7B6FB49EA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JPKit;
+			target = F74D66E8A4725BA821F24D4B146E5EEF /* JPKit */;
+			targetProxy = F839A9539CE8B8432C49FAFFEAC39AC2 /* PBXContainerItemProxy */;
+		};
+		70EE24B424A8D7F93659AC3F80000972 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WebViewJavascriptBridge;
+			target = D6EE36F386DBFD58A8A5B22D65791ABB /* WebViewJavascriptBridge */;
+			targetProxy = F3D806D890E85840CB7DD08E268E0FC3 /* PBXContainerItemProxy */;
+		};
+		F5E61F3C276C90FD92AD3671579E2C41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JPFoundation;
+			target = 706B78E1BE2D4CA3D059ECD89B589583 /* JPFoundation */;
+			targetProxy = BF96A77E786524B11F498A8C137CD473 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		01CF2D72C349EC9640F540DD53C47B67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC6D7BEC43E16C318FDFC8EC75808938 /* JPKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/JPKit/JPKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = JPKit;
+				PRODUCT_NAME = JPKit;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		204FE40432867B41357EF61220E6881B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CFD01DFD9FE55F36CC06118E8FE8231 /* Pods-面试之道.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		284D666CF0BB37E8A7BC185AC4E48F61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC6D7BEC43E16C318FDFC8EC75808938 /* JPKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/JPKit";
+				IBSC_MODULE = JPKit;
+				INFOPLIST_FILE = "Target Support Files/JPKit/ResourceBundle-JPKit-JPKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = JPKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		3C73BDAC02BF6A4D61D6D97D384D8842 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		403C437E16D81EF6A3D45839DEB595FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4098FC607CF5F46464D3FD4B4590396D /* Pods-面试之道.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		605E7670EE71BB42344AB3B9CC420969 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DDAF9C7DE68B87CB4D4D2EF10E89DA3 /* JPFoundation.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/JPFoundation/JPFoundation-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = JPFoundation;
+				PRODUCT_NAME = JPFoundation;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A4C9746FFB1783096FC94A2B00F7767D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC6D7BEC43E16C318FDFC8EC75808938 /* JPKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/JPKit/JPKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = JPKit;
+				PRODUCT_NAME = JPKit;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB09B621ED251839D4FA17E44F361111 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		AC265E09B5A2372F323C79A3B0F870D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C571C8C559283062E42BC4B2F756BB8 /* WebViewJavascriptBridge.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/WebViewJavascriptBridge/WebViewJavascriptBridge-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = WebViewJavascriptBridge;
+				PRODUCT_NAME = WebViewJavascriptBridge;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B34D73B68C085EAC08FBD279F8615F55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C571C8C559283062E42BC4B2F756BB8 /* WebViewJavascriptBridge.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/WebViewJavascriptBridge/WebViewJavascriptBridge-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = WebViewJavascriptBridge;
+				PRODUCT_NAME = WebViewJavascriptBridge;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C09CA8ACFBB216EF7808B21DF6647A71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DDAF9C7DE68B87CB4D4D2EF10E89DA3 /* JPFoundation.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/JPFoundation/JPFoundation-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = JPFoundation;
+				PRODUCT_NAME = JPFoundation;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E9D6464E762AB08C695E77CF18C1761D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC6D7BEC43E16C318FDFC8EC75808938 /* JPKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/JPKit";
+				IBSC_MODULE = JPKit;
+				INFOPLIST_FILE = "Target Support Files/JPKit/ResourceBundle-JPKit-JPKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = JPKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0826747FEF83231334F91041D4085D73 /* Build configuration list for PBXNativeTarget "WebViewJavascriptBridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B34D73B68C085EAC08FBD279F8615F55 /* Debug */,
+				AC265E09B5A2372F323C79A3B0F870D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB09B621ED251839D4FA17E44F361111 /* Debug */,
+				3C73BDAC02BF6A4D61D6D97D384D8842 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E73C2995FC54D359B833D068A0DBC7D /* Build configuration list for PBXNativeTarget "JPFoundation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				605E7670EE71BB42344AB3B9CC420969 /* Debug */,
+				C09CA8ACFBB216EF7808B21DF6647A71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52FCF47262B737BD1404363AC9797D87 /* Build configuration list for PBXNativeTarget "JPKit-JPKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9D6464E762AB08C695E77CF18C1761D /* Debug */,
+				284D666CF0BB37E8A7BC185AC4E48F61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77025D3A879B71A9EA545982E1CD1277 /* Build configuration list for PBXNativeTarget "JPKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01CF2D72C349EC9640F540DD53C47B67 /* Debug */,
+				A4C9746FFB1783096FC94A2B00F7767D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DC81BF5DDDFFF1E392A92A60F1BD51B /* Build configuration list for PBXNativeTarget "Pods-面试之道" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				204FE40432867B41357EF61220E6881B /* Debug */,
+				403C437E16D81EF6A3D45839DEB595FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
