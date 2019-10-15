@@ -18,6 +18,7 @@
 #import "LibController.h"
 #import "CellReuseController.h"
 #import "PrivatePodsController.h"
+#import "RuntimeController.h"
 
 #import <UserNotifications/UserNotifications.h>
 
@@ -41,7 +42,8 @@
 //    NativeNotificationController *vc = [NativeNotificationController new];
 //    LibController *vc = [LibController new];
 //    CellReuseController *vc = [CellReuseController new];
-    DesignModeController *vc = [DesignModeController new];
+//    DesignModeController *vc = [DesignModeController new];
+    RuntimeController *vc = [RuntimeController new];
     UINavigationController *navi = [[UINavigationController alloc] initWithRootViewController:vc];
     self.window.rootViewController = navi;
     [self.window makeKeyAndVisible];
