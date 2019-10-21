@@ -58,6 +58,7 @@
 		394B01F521DE3E3A003F5210 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 394B01F421DE3E3A003F5210 /* ____Tests.m */; };
 		394B020021DE3E3A003F5210 /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 394B01FF21DE3E3A003F5210 /* ____UITests.m */; };
 		394B020F21DE3EFB003F5210 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 394B020E21DE3EFB003F5210 /* Person.m */; };
+		39732C71235D859E00C7DEC8 /* PhoneUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 39732C6F235D859E00C7DEC8 /* PhoneUtils.m */; };
 		398D42842355649E009DF79E /* Son.m in Sources */ = {isa = PBXBuildFile; fileRef = 398D42832355649E009DF79E /* Son.m */; };
 		398D4287235564B2009DF79E /* RuntimeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 398D4286235564B2009DF79E /* RuntimeController.m */; };
 		39C2AC6121E847F600AC1524 /* CustomWebController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39C2AC6021E847F600AC1524 /* CustomWebController.m */; };
@@ -192,6 +193,8 @@
 		394B020121DE3E3A003F5210 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		394B020D21DE3EFB003F5210 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		394B020E21DE3EFB003F5210 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		39732C6F235D859E00C7DEC8 /* PhoneUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhoneUtils.m; sourceTree = "<group>"; };
+		39732C70235D859E00C7DEC8 /* PhoneUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhoneUtils.h; sourceTree = "<group>"; };
 		398D42822355649E009DF79E /* Son.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Son.h; sourceTree = "<group>"; };
 		398D42832355649E009DF79E /* Son.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Son.m; sourceTree = "<group>"; };
 		398D4285235564B2009DF79E /* RuntimeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RuntimeController.h; sourceTree = "<group>"; };
@@ -445,6 +448,7 @@
 				394B01DC21DE3E39003F5210 /* AppDelegate.m */,
 				394B01DE21DE3E39003F5210 /* ViewController.h */,
 				394B01DF21DE3E39003F5210 /* ViewController.m */,
+				39732C6E235D858E00C7DEC8 /* Utils */,
 				398D428123556481009DF79E /* Runtime */,
 				39419FC8235071B400D0D13F /* 私有库 */,
 				394A420A221A3D4A00031585 /* 响应链 */,
@@ -481,6 +485,15 @@
 				394B020121DE3E3A003F5210 /* Info.plist */,
 			);
 			path = "面试之道UITests";
+			sourceTree = "<group>";
+		};
+		39732C6E235D858E00C7DEC8 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				39732C70235D859E00C7DEC8 /* PhoneUtils.h */,
+				39732C6F235D859E00C7DEC8 /* PhoneUtils.m */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 		398D428123556481009DF79E /* Runtime */ = {
@@ -742,6 +755,7 @@
 				390564092203E75900834FC5 /* DesignModeController.m in Sources */,
 				392497E6220290C8002C3468 /* TicketManager.m in Sources */,
 				390FD6EF21E7869E005B0032 /* WkWebViewController.m in Sources */,
+				39732C71235D859E00C7DEC8 /* PhoneUtils.m in Sources */,
 				390D01D22213050B0099C030 /* Espresso.m in Sources */,
 				390D01BE2212FFC40099C030 /* FlyNoWay.m in Sources */,
 				394B01E021DE3E39003F5210 /* ViewController.m in Sources */,

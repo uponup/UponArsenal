@@ -14,7 +14,8 @@
     self = [super init];
     if (self) {
         NSLog(@"%@", NSStringFromClass([self class]));
-        NSLog(@"%@", NSStringFromClass([super class]));
+        NSLog(@"%@", NSStringFromClass([super superclass]));
+        NSLog(@"%@", NSStringFromClass([[[super class] alloc] superclass]));
     }
     return self;
 }
