@@ -42,6 +42,12 @@
 		392497E6220290C8002C3468 /* TicketManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 392497E5220290C8002C3468 /* TicketManager.m */; };
 		392497E922030A07002C3468 /* TaskSingle.m in Sources */ = {isa = PBXBuildFile; fileRef = 392497E822030A07002C3468 /* TaskSingle.m */; };
 		392497EC22030DEC002C3468 /* CustomOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 392497EB22030DEC002C3468 /* CustomOperation.m */; };
+		393658A723851B95008EFCC4 /* CallDirectoryManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 393658A623851B95008EFCC4 /* CallDirectoryManager.m */; };
+		393658B12385300C008EFCC4 /* country_allcodes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 393658B02385300C008EFCC4 /* country_allcodes.plist */; };
+		393658B5238533B7008EFCC4 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 393658B2238530E6008EFCC4 /* CoreTelephony.framework */; };
+		393658B823853448008EFCC4 /* CountryUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 393658B623853448008EFCC4 /* CountryUtils.m */; };
+		393658BC23854773008EFCC4 /* CallDirectoryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 393658BA23854773008EFCC4 /* CallDirectoryController.m */; };
+		393658BD23854773008EFCC4 /* CallDirectoryController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 393658BB23854773008EFCC4 /* CallDirectoryController.xib */; };
 		3937EBC421EDE21F00218EC3 /* ThreadController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3937EBC221EDE21F00218EC3 /* ThreadController.m */; };
 		3937EBC521EDE21F00218EC3 /* ThreadController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3937EBC321EDE21F00218EC3 /* ThreadController.xib */; };
 		39419FCB235071EA00D0D13F /* PrivatePodsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39419FCA235071EA00D0D13F /* PrivatePodsController.m */; };
@@ -63,6 +69,8 @@
 		398D4287235564B2009DF79E /* RuntimeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 398D4286235564B2009DF79E /* RuntimeController.m */; };
 		39C2AC6121E847F600AC1524 /* CustomWebController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39C2AC6021E847F600AC1524 /* CustomWebController.m */; };
 		39C2AC6321E8C4AE00AC1524 /* demo3.html in Resources */ = {isa = PBXBuildFile; fileRef = 39C2AC6221E8C4AE00AC1524 /* demo3.html */; };
+		39D4A8D12385154600D8CB35 /* CallDirectoryHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 39D4A8D02385154600D8CB35 /* CallDirectoryHandler.m */; };
+		39D4A8D52385154600D8CB35 /* CallKitExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 39D4A8CD2385154600D8CB35 /* CallKitExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		39F3BC2921E4A7F10024E39B /* CustomJSObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F3BC2821E4A7F10024E39B /* CustomJSObject.m */; };
 		39F3BC2B21E4AAAF0024E39B /* demo.html in Resources */ = {isa = PBXBuildFile; fileRef = 39F3BC2A21E4AAAF0024E39B /* demo.html */; };
 		4883DB86EB4E5B31F72EA8AF /* libPods-面试之道.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 91737A42EA82076715B59CC0 /* libPods-面试之道.a */; };
@@ -83,6 +91,13 @@
 			remoteGlobalIDString = 394B01D721DE3E39003F5210;
 			remoteInfo = "面试之道";
 		};
+		39D4A8D32385154600D8CB35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 394B01D021DE3E39003F5210 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39D4A8CC2385154600D8CB35;
+			remoteInfo = CallKitExtension;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -94,6 +109,17 @@
 			files = (
 				3905646B2204356000834FC5 /* JPFramework.framework in CopyFiles */,
 			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39D4A8BD2384E89600D8CB35 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				39D4A8D52385154600D8CB35 /* CallKitExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -163,6 +189,17 @@
 		392497E822030A07002C3468 /* TaskSingle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaskSingle.m; sourceTree = "<group>"; };
 		392497EA22030DEC002C3468 /* CustomOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomOperation.h; sourceTree = "<group>"; };
 		392497EB22030DEC002C3468 /* CustomOperation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomOperation.m; sourceTree = "<group>"; };
+		393658A523851B95008EFCC4 /* CallDirectoryManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CallDirectoryManager.h; sourceTree = "<group>"; };
+		393658A623851B95008EFCC4 /* CallDirectoryManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CallDirectoryManager.m; sourceTree = "<group>"; };
+		393658A9238521E9008EFCC4 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		393658AB23852201008EFCC4 /* common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = common.h; sourceTree = "<group>"; };
+		393658B02385300C008EFCC4 /* country_allcodes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = country_allcodes.plist; sourceTree = "<group>"; };
+		393658B2238530E6008EFCC4 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		393658B623853448008EFCC4 /* CountryUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountryUtils.m; sourceTree = "<group>"; };
+		393658B723853448008EFCC4 /* CountryUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountryUtils.h; sourceTree = "<group>"; };
+		393658B923854773008EFCC4 /* CallDirectoryController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CallDirectoryController.h; sourceTree = "<group>"; };
+		393658BA23854773008EFCC4 /* CallDirectoryController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CallDirectoryController.m; sourceTree = "<group>"; };
+		393658BB23854773008EFCC4 /* CallDirectoryController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CallDirectoryController.xib; sourceTree = "<group>"; };
 		3937EBC121EDE21F00218EC3 /* ThreadController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThreadController.h; sourceTree = "<group>"; };
 		3937EBC221EDE21F00218EC3 /* ThreadController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThreadController.m; sourceTree = "<group>"; };
 		3937EBC321EDE21F00218EC3 /* ThreadController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ThreadController.xib; sourceTree = "<group>"; };
@@ -202,6 +239,11 @@
 		39C2AC5F21E847F600AC1524 /* CustomWebController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomWebController.h; sourceTree = "<group>"; };
 		39C2AC6021E847F600AC1524 /* CustomWebController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomWebController.m; sourceTree = "<group>"; };
 		39C2AC6221E8C4AE00AC1524 /* demo3.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = demo3.html; sourceTree = "<group>"; };
+		39D4A8CD2385154600D8CB35 /* CallKitExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CallKitExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		39D4A8CF2385154600D8CB35 /* CallDirectoryHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CallDirectoryHandler.h; sourceTree = "<group>"; };
+		39D4A8D02385154600D8CB35 /* CallDirectoryHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CallDirectoryHandler.m; sourceTree = "<group>"; };
+		39D4A8D22385154600D8CB35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39D4A8D92385156200D8CB35 /* CallKitExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CallKitExtension.entitlements; sourceTree = "<group>"; };
 		39F3BC2721E4A7F10024E39B /* CustomJSObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomJSObject.h; sourceTree = "<group>"; };
 		39F3BC2821E4A7F10024E39B /* CustomJSObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomJSObject.m; sourceTree = "<group>"; };
 		39F3BC2A21E4AAAF0024E39B /* demo.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = demo.html; sourceTree = "<group>"; };
@@ -214,6 +256,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				393658B5238533B7008EFCC4 /* CoreTelephony.framework in Frameworks */,
 				4883DB86EB4E5B31F72EA8AF /* libPods-面试之道.a in Frameworks */,
 				3905646A2204355500834FC5 /* JPFramework.framework in Frameworks */,
 				3905642D220425E600834FC5 /* test.a in Frameworks */,
@@ -228,6 +271,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		394B01F821DE3E3A003F5210 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39D4A8CA2385154600D8CB35 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -381,6 +431,44 @@
 			path = "WebView的交互";
 			sourceTree = "<group>";
 		};
+		393658A423851B78008EFCC4 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				393658B02385300C008EFCC4 /* country_allcodes.plist */,
+				393658A523851B95008EFCC4 /* CallDirectoryManager.h */,
+				393658A623851B95008EFCC4 /* CallDirectoryManager.m */,
+				393658B723853448008EFCC4 /* CountryUtils.h */,
+				393658B623853448008EFCC4 /* CountryUtils.m */,
+				393658B923854773008EFCC4 /* CallDirectoryController.h */,
+				393658BA23854773008EFCC4 /* CallDirectoryController.m */,
+				393658BB23854773008EFCC4 /* CallDirectoryController.xib */,
+			);
+			name = Manager;
+			sourceTree = "<group>";
+		};
+		393658AA238521EE008EFCC4 /* pch */ = {
+			isa = PBXGroup;
+			children = (
+				393658A9238521E9008EFCC4 /* PrefixHeader.pch */,
+				393658AB23852201008EFCC4 /* common.h */,
+			);
+			name = pch;
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		393658AC238528F5008EFCC4 /* Group */ = {
+			isa = PBXGroup;
+			children = (
+				394B01E121DE3E39003F5210 /* Main.storyboard */,
+				394B01E421DE3E3A003F5210 /* Assets.xcassets */,
+				394B01E621DE3E3A003F5210 /* LaunchScreen.storyboard */,
+				394B01E921DE3E3A003F5210 /* Info.plist */,
+				394B01EA21DE3E3A003F5210 /* main.m */,
+				393658AA238521EE008EFCC4 /* pch */,
+			);
+			name = Group;
+			sourceTree = "<group>";
+		};
 		3937EBC021EDE1F900218EC3 /* 多线程 */ = {
 			isa = PBXGroup;
 			children = (
@@ -424,6 +512,7 @@
 				394B01DA21DE3E39003F5210 /* 面试之道 */,
 				394B01F321DE3E3A003F5210 /* 面试之道Tests */,
 				394B01FE21DE3E3A003F5210 /* 面试之道UITests */,
+				39D4A8CE2385154600D8CB35 /* CallKitExtension */,
 				394B01D921DE3E39003F5210 /* Products */,
 				5DA7D40CB15F71D58009530E /* Pods */,
 				8D4A20143B35BDDF59A655BD /* Frameworks */,
@@ -436,6 +525,7 @@
 				394B01D821DE3E39003F5210 /* 面试之道.app */,
 				394B01F021DE3E3A003F5210 /* 面试之道Tests.xctest */,
 				394B01FB21DE3E3A003F5210 /* 面试之道UITests.xctest */,
+				39D4A8CD2385154600D8CB35 /* CallKitExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -448,6 +538,7 @@
 				394B01DC21DE3E39003F5210 /* AppDelegate.m */,
 				394B01DE21DE3E39003F5210 /* ViewController.h */,
 				394B01DF21DE3E39003F5210 /* ViewController.m */,
+				39D4A8AC2384E52300D8CB35 /* 电话拦截 */,
 				39732C6E235D858E00C7DEC8 /* Utils */,
 				398D428123556481009DF79E /* Runtime */,
 				39419FC8235071B400D0D13F /* 私有库 */,
@@ -460,11 +551,7 @@
 				3937EBC021EDE1F900218EC3 /* 多线程 */,
 				39F3BC2221E4A67F0024E39B /* JS交互 */,
 				3905711D21E03CF40061F6F8 /* 动画 */,
-				394B01E121DE3E39003F5210 /* Main.storyboard */,
-				394B01E421DE3E3A003F5210 /* Assets.xcassets */,
-				394B01E621DE3E3A003F5210 /* LaunchScreen.storyboard */,
-				394B01E921DE3E3A003F5210 /* Info.plist */,
-				394B01EA21DE3E3A003F5210 /* main.m */,
+				393658AC238528F5008EFCC4 /* Group */,
 			);
 			path = "面试之道";
 			sourceTree = "<group>";
@@ -519,6 +606,25 @@
 			path = JavaScriptBridge;
 			sourceTree = "<group>";
 		};
+		39D4A8AC2384E52300D8CB35 /* 电话拦截 */ = {
+			isa = PBXGroup;
+			children = (
+				393658A423851B78008EFCC4 /* Manager */,
+			);
+			path = "电话拦截";
+			sourceTree = "<group>";
+		};
+		39D4A8CE2385154600D8CB35 /* CallKitExtension */ = {
+			isa = PBXGroup;
+			children = (
+				39D4A8D92385156200D8CB35 /* CallKitExtension.entitlements */,
+				39D4A8CF2385154600D8CB35 /* CallDirectoryHandler.h */,
+				39D4A8D02385154600D8CB35 /* CallDirectoryHandler.m */,
+				39D4A8D22385154600D8CB35 /* Info.plist */,
+			);
+			path = CallKitExtension;
+			sourceTree = "<group>";
+		};
 		39F3BC2221E4A67F0024E39B /* JS交互 */ = {
 			isa = PBXGroup;
 			children = (
@@ -554,6 +660,7 @@
 		8D4A20143B35BDDF59A655BD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				393658B2238530E6008EFCC4 /* CoreTelephony.framework */,
 				91737A42EA82076715B59CC0 /* libPods-面试之道.a */,
 			);
 			name = Frameworks;
@@ -572,10 +679,12 @@
 				394B01D621DE3E39003F5210 /* Resources */,
 				3905645D22042D6E00834FC5 /* CopyFiles */,
 				9EC87F04DA877213DE2A77C6 /* [CP] Copy Pods Resources */,
+				39D4A8BD2384E89600D8CB35 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				39D4A8D42385154600D8CB35 /* PBXTargetDependency */,
 			);
 			name = "面试之道";
 			productName = "面试之道";
@@ -618,6 +727,23 @@
 			productReference = 394B01FB21DE3E3A003F5210 /* 面试之道UITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		39D4A8CC2385154600D8CB35 /* CallKitExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39D4A8D62385154600D8CB35 /* Build configuration list for PBXNativeTarget "CallKitExtension" */;
+			buildPhases = (
+				39D4A8C92385154600D8CB35 /* Sources */,
+				39D4A8CA2385154600D8CB35 /* Frameworks */,
+				39D4A8CB2385154600D8CB35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CallKitExtension;
+			productName = CallKitExtension;
+			productReference = 39D4A8CD2385154600D8CB35 /* CallKitExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -630,6 +756,9 @@
 					394B01D721DE3E39003F5210 = {
 						CreatedOnToolsVersion = 9.4.1;
 						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
 							com.apple.Push = {
 								enabled = 1;
 							};
@@ -642,6 +771,14 @@
 					394B01FA21DE3E3A003F5210 = {
 						CreatedOnToolsVersion = 9.4.1;
 						TestTargetID = 394B01D721DE3E39003F5210;
+					};
+					39D4A8CC2385154600D8CB35 = {
+						CreatedOnToolsVersion = 10.2.1;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -661,6 +798,7 @@
 				394B01D721DE3E39003F5210 /* 面试之道 */,
 				394B01EF21DE3E3A003F5210 /* 面试之道Tests */,
 				394B01FA21DE3E3A003F5210 /* 面试之道UITests */,
+				39D4A8CC2385154600D8CB35 /* CallKitExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -674,6 +812,8 @@
 				39084A3921F9D52B00E2AA8A /* notification.png in Resources */,
 				3905642B220425B300834FC5 /* LibController.xib in Resources */,
 				3937EBC521EDE21F00218EC3 /* ThreadController.xib in Resources */,
+				393658BD23854773008EFCC4 /* CallDirectoryController.xib in Resources */,
+				393658B12385300C008EFCC4 /* country_allcodes.plist in Resources */,
 				394B01E821DE3E3A003F5210 /* LaunchScreen.storyboard in Resources */,
 				394B01E521DE3E3A003F5210 /* Assets.xcassets in Resources */,
 				39084A3721F9D25800E2AA8A /* NativeNotificationController.xib in Resources */,
@@ -696,6 +836,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		394B01F921DE3E3A003F5210 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39D4A8CB2385154600D8CB35 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -747,6 +894,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				393658BC23854773008EFCC4 /* CallDirectoryController.m in Sources */,
 				39084A3621F9D25800E2AA8A /* NativeNotificationController.m in Sources */,
 				390FD6EB21E7828D005B0032 /* 与JS的交互.html in Sources */,
 				394A420E221A3D7D00031585 /* ResponeLinkController.m in Sources */,
@@ -764,10 +912,12 @@
 				39419FCB235071EA00D0D13F /* PrivatePodsController.m in Sources */,
 				390CCDF322050F5600D9879E /* CellReuseController.m in Sources */,
 				39F3BC2921E4A7F10024E39B /* CustomJSObject.m in Sources */,
+				393658B823853448008EFCC4 /* CountryUtils.m in Sources */,
 				39056426220422B600834FC5 /* Note.js in Sources */,
 				390D01C4221300A70099C030 /* DomesticDuck.m in Sources */,
 				392497EC22030DEC002C3468 /* CustomOperation.m in Sources */,
 				3905642A220425B300834FC5 /* LibController.m in Sources */,
+				393658A723851B95008EFCC4 /* CallDirectoryManager.m in Sources */,
 				392497E922030A07002C3468 /* TaskSingle.m in Sources */,
 				3905712121E03D1E0061F6F8 /* AnimationController.m in Sources */,
 				390D01D62213067A0099C030 /* Milk.m in Sources */,
@@ -804,6 +954,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		39D4A8C92385154600D8CB35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39D4A8D12385154600D8CB35 /* CallDirectoryHandler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -816,6 +974,11 @@
 			isa = PBXTargetDependency;
 			target = 394B01D721DE3E39003F5210 /* 面试之道 */;
 			targetProxy = 394B01FC21DE3E3A003F5210 /* PBXContainerItemProxy */;
+		};
+		39D4A8D42385154600D8CB35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39D4A8CC2385154600D8CB35 /* CallKitExtension */;
+			targetProxy = 39D4A8D32385154600D8CB35 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -955,11 +1118,22 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "面试之道/面试之道.entitlements";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = T7DLS38GH3;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = D3P9657WA8;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/面试之道/静态库和Framework的封装/Framework",
+				);
+				GCC_PREFIX_HEADER = "/Users/paulgao/develop/UponArsenal/面试之道/Sources/PrefixHeader.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/JPFoundation\"",
+					"\"${PODS_ROOT}/Headers/Public/JPKit\"",
+					"\"${PODS_ROOT}/Headers/Public/WebViewJavascriptBridge\"",
+					"\"${PODS_ROOT}/Headers/Public/YYModel\"",
+					"\"${PODS_ROOT}/Headers/Public/libPhoneNumber-iOS\"",
 				);
 				INFOPLIST_FILE = "面试之道/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -980,8 +1154,9 @@
 					"\"WebKit\"",
 					"-ObjC",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tm.----";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tm.miansi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = mianshi_profiles;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -992,11 +1167,22 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "面试之道/面试之道.entitlements";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = T7DLS38GH3;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/面试之道/静态库和Framework的封装/Framework",
+				);
+				GCC_PREFIX_HEADER = "/Users/paulgao/develop/UponArsenal/面试之道/Sources/PrefixHeader.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/JPFoundation\"",
+					"\"${PODS_ROOT}/Headers/Public/JPKit\"",
+					"\"${PODS_ROOT}/Headers/Public/WebViewJavascriptBridge\"",
+					"\"${PODS_ROOT}/Headers/Public/YYModel\"",
+					"\"${PODS_ROOT}/Headers/Public/libPhoneNumber-iOS\"",
 				);
 				INFOPLIST_FILE = "面试之道/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1017,8 +1203,9 @@
 					"\"WebKit\"",
 					"-ObjC",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tm.----";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tm.miansi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -1093,6 +1280,55 @@
 			};
 			name = Release;
 		};
+		39D4A8D72385154600D8CB35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_ENTITLEMENTS = CallKitExtension/CallKitExtension.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D3P9657WA8;
+				GCC_PREFIX_HEADER = "/Users/paulgao/develop/UponArsenal/面试之道/Sources/PrefixHeader.pch";
+				INFOPLIST_FILE = CallKitExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tm.miansi.CallKitExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		39D4A8D82385154600D8CB35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_ENTITLEMENTS = CallKitExtension/CallKitExtension.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				GCC_PREFIX_HEADER = "/Users/paulgao/develop/UponArsenal/面试之道/Sources/PrefixHeader.pch";
+				INFOPLIST_FILE = CallKitExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tm.miansi.CallKitExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1128,6 +1364,15 @@
 			buildConfigurations = (
 				394B020B21DE3E3A003F5210 /* Debug */,
 				394B020C21DE3E3A003F5210 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39D4A8D62385154600D8CB35 /* Build configuration list for PBXNativeTarget "CallKitExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39D4A8D72385154600D8CB35 /* Debug */,
+				39D4A8D82385154600D8CB35 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

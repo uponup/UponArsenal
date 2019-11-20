@@ -3,17 +3,20 @@ PODS:
   - JPKit (0.1.4)
   - libPhoneNumber-iOS (0.9.2)
   - WebViewJavascriptBridge (6.0.3)
+  - YYModel (1.0.4)
 
 DEPENDENCIES:
   - JPFoundation
   - JPKit
   - libPhoneNumber-iOS (= 0.9.2)
   - WebViewJavascriptBridge
+  - YYModel (~> 1.0.4)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - libPhoneNumber-iOS
     - WebViewJavascriptBridge
+    - YYModel
   https://github.com/uponup/JPSpec.git:
     - JPFoundation
     - JPKit
@@ -23,7 +26,8 @@ SPEC CHECKSUMS:
   JPKit: 42a84c3612cd0b133cf2785ba4e5c0fb0ef195b6
   libPhoneNumber-iOS: a8bffdec18c37728360f6771fe021302f1e0b497
   WebViewJavascriptBridge: 7f5bc4d3581e672e8f32bd0f812d54bc69bb8e29
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
-PODFILE CHECKSUM: 513822bd36f888b1789c6ebe063e251fdca6171b
+PODFILE CHECKSUM: 079a32314a10c771cbbcb6fea152ae8c6e5693de
 
 COCOAPODS: 1.8.0

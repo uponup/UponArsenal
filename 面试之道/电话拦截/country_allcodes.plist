@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>United States#+1#🇺🇸#US</string>
+	<string>United Kingdom#+44#🇬🇧#GB</string>
+	<string>Japan#+81#🇯🇵#JP</string>
+	<string>China#+86#🇨🇳#CN</string>
+	<string>Argentina#+54#🇦🇷#AR</string>
+	<string>Australia#+61#🇦🇺#AU</string>
+	<string>Austria#+43#🇦🇹#AT</string>
+	<string>Belgium#+32#🇧🇪#BE</string>
+	<string>Brazil#+55#🇧🇷#BR</string>
+	<string>Canada#+1#🇨🇦#CA</string>
+	<string>Colombia#+57#🇨🇴#CO</string>
+	<string>Cyprus#+357#🇨🇾#CY</string>
+	<string>Czech Republic#+420#🇨🇿#CZ</string>
+	<string>Denmark#+45#🇩🇰#DK</string>
+	<string>Dominican Rep.#+1809#🇩🇴#DO</string>
+	<string>Dominican Rep.#+1829#🇩🇴#DO</string>
+	<string>Dominican Rep.#+1849#🇩🇴#DO</string>
+	<string>Egypt#+20#🇪🇬#EG</string>
+	<string>Estonia#+372#🇪🇪#EE</string>
+	<string>Finland#+358#🇫🇮#FI</string>
+	<string>France#+33#🇫🇷#FR</string>
+	<string>Germany#+49#🇩🇪#DE</string>
+	<string>Greece#+30#🇬🇷#GR</string>
+	<string>HongKong#+852#🇭🇰#HK</string>
+	<string>Hungary#+36#🇭🇺#HU</string>
+	<string>Iceland#+354#🇮🇸#IS</string>
+	<string>India#+91#🇮🇳#IN</string>
+	<string>Indonesia#+62#🇮🇩#ID</string>
+	<string>Ireland#+353#🇮🇪#IE</string>
+	<string>Israel#+972#🇮🇱#IL</string>
+	<string>Italy#+39#🇮🇹#IT</string>
+	<string>Kenya#+254#🇰🇪#KE</string>
+	<string>Latvia#+371#🇱🇻#LV</string>
+	<string>Lithuania#+370#🇱🇹#LT</string>
+	<string>Luxembourg#+352#🇱🇺#LU</string>
+	<string>Malaysia#+60#🇲🇾#MY</string>
+	<string>Malta#+356#🇲🇹#MT</string>
+	<string>Netherlands#+31#🇳🇱#NL</string>
+	<string>Nigeria#+234#🇳🇬#NG</string>
+	<string>North Korea#+850#🇰🇵#KR</string>
+	<string>Norway#+47#🇳🇴#NO</string>
+	<string>Pakistan#+92#🇵🇰#PK</string>
+	<string>Philippines#+63#🇵🇭#PH</string>
+	<string>Poland#+48#🇵🇱#PL</string>
+	<string>Portugal#+351#🇵🇹#PT</string>
+	<string>Puerto Rico#+1787#🇵🇷#PR</string>
+	<string>Qatar#+974#🇶🇦#QA</string>
+	<string>Romania#+40#🇷🇴#RO</string>
+	<string>Russia#+7#🇷🇺#RU</string>
+	<string>Saudi Arabia#+966#🇸🇦#SA</string>
+	<string>Singapore#+65#🇸🇬#SG</string>
+	<string>South Africa#+27#🇿🇦#ZA</string>
+	<string>Spain#+34#🇪🇸#ES</string>
+	<string>Sri Lanka#+94#🇱🇰#LK</string>
+	<string>Sweden#+46#🇸🇪#SE</string>
+	<string>Switzerland#+41#🇨🇭#ch</string>
+	<string>Taiwan#+886#     #TW</string>
+	<string>Thailand#+66#🇹🇭#TH</string>
+</array>
+</plist>

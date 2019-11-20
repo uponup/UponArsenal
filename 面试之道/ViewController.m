@@ -14,6 +14,10 @@
 #import <NBPhoneNumber.h>
 #import <NBPhoneNumberUtil.h>
 
+#import <CoreTelephony/CTTelephonyNetworkInfo.h>
+#import <CoreTelephony/CTCarrier.h>
+
+
 @interface ViewController () {
     NBEPhoneNumberFormat _type;
 }

@@ -4,6 +4,13 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>CallKitExtension.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>9</integer>
+		</dict>
 		<key>面试之道.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -11,8 +18,33 @@
 		</dict>
 		<key>面试之道.xcscheme_^#shared#^_</key>
 		<dict>
+			<key>isShown</key>
+			<true/>
 			<key>orderHint</key>
-			<integer>6</integer>
+			<integer>7</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>394B01D721DE3E39003F5210</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>394B01EF21DE3E3A003F5210</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>394B01FA21DE3E3A003F5210</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>39D4A8CC2385154600D8CB35</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

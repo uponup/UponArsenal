@@ -19,6 +19,7 @@
 #import "CellReuseController.h"
 #import "PrivatePodsController.h"
 #import "RuntimeController.h"
+#import "CallDirectoryController.h"
 
 #import <UserNotifications/UserNotifications.h>
 
@@ -31,8 +32,8 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-//    self.window = [[UIWindow alloc] init];
-//    self.window.backgroundColor = [UIColor whiteColor];
+    self.window = [[UIWindow alloc] init];
+    self.window.backgroundColor = [UIColor whiteColor];
 //    AnimationController *vc = [AnimationController new];
 //    JPWebController *vc = [JPWebController new];
 //    WkWebViewController *vc = [WkWebViewController new];
@@ -44,9 +45,10 @@
 //    CellReuseController *vc = [CellReuseController new];
 //    DesignModeController *vc = [DesignModeController new];
 //    RuntimeController *vc = [RuntimeController new];
-//    UINavigationController *navi = [[UINavigationController alloc] initWithRootViewController:vc];
-//    self.window.rootViewController = navi;
-//    [self.window makeKeyAndVisible];
+    CallDirectoryController *vc = [CallDirectoryController new];
+    UINavigationController *navi = [[UINavigationController alloc] initWithRootViewController:vc];
+    self.window.rootViewController = navi;
+    [self.window makeKeyAndVisible];
     
 
 #ifdef __IPHONE_10_0
