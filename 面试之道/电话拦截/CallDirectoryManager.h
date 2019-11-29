@@ -24,6 +24,8 @@ NS_ASSUME_NONNULL_BEGIN
 - (CallDirectoryAuth)requestAuth;
 - (void)addPhoneNumber:(NSString *)phoneNumber withLabel:(NSString *)label;
 - (BOOL)reloadExtensionContext;
+
+- (void)removeAll;
 @end
 
 NS_ASSUME_NONNULL_END

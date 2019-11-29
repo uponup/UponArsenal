@@ -13,5 +13,6 @@
 #define FileName_AppGroup @"Identifier_AppGroup"
 #define Identifier_AppGroup @"group.com.tm.mianshi.CallKitBlock"
 #define Identifier_AppExtension @"com.tm.miansi.CallKitExtension"
+#define SuitName_AppGroup @"SuitName_AppGroup"
 
 #endif /* common_h */

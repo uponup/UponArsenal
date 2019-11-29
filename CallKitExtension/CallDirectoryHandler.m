@@ -7,6 +7,7 @@
 //
 
 #import "CallDirectoryHandler.h"
+#import <UIKit/UIKit.h>
 
 @interface CallDirectoryHandler () <CXCallDirectoryExtensionContextDelegate>
 @end
@@ -15,17 +16,26 @@
 
 - (void)beginRequestWithExtensionContext:(CXCallDirectoryExtensionContext *)context {
     context.delegate = self;
-
 //    if (![self addIdentificationPhoneNumbersToContext:context]) {
 //        NSError *error = [NSError errorWithDomain:@"CallDirectoryHandler" code:2 userInfo:nil];
 //        [context cancelRequestWithError:error];
 //        return;
 //    }
     
-    // 来电识别
-    [context removeAllIdentificationEntries];
-    // block
-    [context removeAllBlockingEntries];
+    NSUserDefaults *userDefaults = [[NSUserDefaults alloc] initWithSuiteName:Identifier_AppGroup];
+//    BOOL isRemoveAll = [userDefaults boolForKey:@"RemoveAll"];
+    BOOL isRemoveAll = NO;
+    
+    if (isRemoveAll) {
+        // 来电识别
+        [context removeAllIdentificationEntries];
+        // block
+        [context removeAllBlockingEntries];
+        [userDefaults setBool:NO forKey:@"RemoveAll"];
+    }else {
+        [self addIdentificationPhoneNumbersToContext:context];
+    }
+    
     
     [context completeRequestWithCompletionHandler:nil];
 }
@@ -57,7 +67,8 @@
                 if (number && [number isKindOfClass:[NSString class]] &&
                     name && [name isKindOfClass:[NSString class]]) {
                     CXCallDirectoryPhoneNumber phoneNumber = [number longLongValue];
-                   
+                    [context addIdentificationEntryWithNextSequentialPhoneNumber:phoneNumber label:name];
+//                    [context addBlockingEntryWithNextSequentialPhoneNumber:phoneNumber];
                 }
             }
             

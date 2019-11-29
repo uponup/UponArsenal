@@ -32,8 +32,11 @@
             authType = CallDirectoryAuth_enable;
         }else if (enabledStatus == CXCallDirectoryEnabledStatusDisabled) {
             authType = CallDirectoryAuth_disable;
+            NSLog(@"获取权限失败：%@", error.localizedDescription);
+        }else {
+            NSLog(@"获取权限失败：%@", error.localizedDescription);
         }
-        NSLog(@"获取权限失败：%@", error.localizedDescription);
+        
         dispatch_semaphore_signal(semaphore);
     }];
     dispatch_semaphore_wait(semaphore, DISPATCH_TIME_FOREVER);
@@ -107,6 +110,23 @@
 
 - (void)clearPhoneNumber {
     [self.dataList removeAllObjects];
+}
+
+- (void)removeAll {
+    NSUserDefaults *userDefaults = [[NSUserDefaults alloc] initWithSuiteName:Identifier_AppGroup];
+    [userDefaults setBool:YES forKey:@"RemoveAll"];
+    [userDefaults synchronize];
+    
+    [self.dataList removeAllObjects];
+    CXCallDirectoryManager *manager = [CXCallDirectoryManager sharedInstance];
+    [manager reloadExtensionWithIdentifier:Identifier_AppExtension completionHandler:^(NSError * _Nullable error) {
+        if (error) {
+            NSLog(@"删除reload失败：%@", error.localizedDescription);
+        }else {
+            NSLog(@"删除reload成功");
+
+        }
+    }];
 }
 
 #pragma mark - Lazy Method

@@ -12,5 +12,6 @@ target '面试之道' do
   pod 'JPFoundation'
   pod 'libPhoneNumber-iOS', '0.9.2'
   pod 'YYModel', '~> 1.0.4'
+  pod 'FMDB', '~> 2.7.5'
 
 end

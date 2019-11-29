@@ -48,6 +48,8 @@
 		393658B823853448008EFCC4 /* CountryUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 393658B623853448008EFCC4 /* CountryUtils.m */; };
 		393658BC23854773008EFCC4 /* CallDirectoryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 393658BA23854773008EFCC4 /* CallDirectoryController.m */; };
 		393658BD23854773008EFCC4 /* CallDirectoryController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 393658BB23854773008EFCC4 /* CallDirectoryController.xib */; };
+		393658C1238668B2008EFCC4 /* TransactionDB.m in Sources */ = {isa = PBXBuildFile; fileRef = 393658C0238668B2008EFCC4 /* TransactionDB.m */; };
+		393658C423866BB7008EFCC4 /* FileDB.m in Sources */ = {isa = PBXBuildFile; fileRef = 393658C323866BB7008EFCC4 /* FileDB.m */; };
 		3937EBC421EDE21F00218EC3 /* ThreadController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3937EBC221EDE21F00218EC3 /* ThreadController.m */; };
 		3937EBC521EDE21F00218EC3 /* ThreadController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3937EBC321EDE21F00218EC3 /* ThreadController.xib */; };
 		39419FCB235071EA00D0D13F /* PrivatePodsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39419FCA235071EA00D0D13F /* PrivatePodsController.m */; };
@@ -200,6 +202,10 @@
 		393658B923854773008EFCC4 /* CallDirectoryController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CallDirectoryController.h; sourceTree = "<group>"; };
 		393658BA23854773008EFCC4 /* CallDirectoryController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CallDirectoryController.m; sourceTree = "<group>"; };
 		393658BB23854773008EFCC4 /* CallDirectoryController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CallDirectoryController.xib; sourceTree = "<group>"; };
+		393658BF238668B2008EFCC4 /* TransactionDB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransactionDB.h; sourceTree = "<group>"; };
+		393658C0238668B2008EFCC4 /* TransactionDB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransactionDB.m; sourceTree = "<group>"; };
+		393658C223866BB7008EFCC4 /* FileDB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FileDB.h; sourceTree = "<group>"; };
+		393658C323866BB7008EFCC4 /* FileDB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FileDB.m; sourceTree = "<group>"; };
 		3937EBC121EDE21F00218EC3 /* ThreadController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThreadController.h; sourceTree = "<group>"; };
 		3937EBC221EDE21F00218EC3 /* ThreadController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThreadController.m; sourceTree = "<group>"; };
 		3937EBC321EDE21F00218EC3 /* ThreadController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ThreadController.xib; sourceTree = "<group>"; };
@@ -469,6 +475,17 @@
 			name = Group;
 			sourceTree = "<group>";
 		};
+		393658BE2386688A008EFCC4 /* 数据库事务 */ = {
+			isa = PBXGroup;
+			children = (
+				393658BF238668B2008EFCC4 /* TransactionDB.h */,
+				393658C0238668B2008EFCC4 /* TransactionDB.m */,
+				393658C223866BB7008EFCC4 /* FileDB.h */,
+				393658C323866BB7008EFCC4 /* FileDB.m */,
+			);
+			path = "数据库事务";
+			sourceTree = "<group>";
+		};
 		3937EBC021EDE1F900218EC3 /* 多线程 */ = {
 			isa = PBXGroup;
 			children = (
@@ -538,6 +555,7 @@
 				394B01DC21DE3E39003F5210 /* AppDelegate.m */,
 				394B01DE21DE3E39003F5210 /* ViewController.h */,
 				394B01DF21DE3E39003F5210 /* ViewController.m */,
+				393658BE2386688A008EFCC4 /* 数据库事务 */,
 				39D4A8AC2384E52300D8CB35 /* 电话拦截 */,
 				39732C6E235D858E00C7DEC8 /* Utils */,
 				398D428123556481009DF79E /* Runtime */,
@@ -912,10 +930,12 @@
 				39419FCB235071EA00D0D13F /* PrivatePodsController.m in Sources */,
 				390CCDF322050F5600D9879E /* CellReuseController.m in Sources */,
 				39F3BC2921E4A7F10024E39B /* CustomJSObject.m in Sources */,
+				393658C1238668B2008EFCC4 /* TransactionDB.m in Sources */,
 				393658B823853448008EFCC4 /* CountryUtils.m in Sources */,
 				39056426220422B600834FC5 /* Note.js in Sources */,
 				390D01C4221300A70099C030 /* DomesticDuck.m in Sources */,
 				392497EC22030DEC002C3468 /* CustomOperation.m in Sources */,
+				393658C423866BB7008EFCC4 /* FileDB.m in Sources */,
 				3905642A220425B300834FC5 /* LibController.m in Sources */,
 				393658A723851B95008EFCC4 /* CallDirectoryManager.m in Sources */,
 				392497E922030A07002C3468 /* TaskSingle.m in Sources */,
