@@ -19,8 +19,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-//    [self demo001];
-    [self demo002];
+    [self demo001];
+//    [self demo002];
 }
 
 #pragma mark - 1、消息转发
@@ -30,10 +30,10 @@
 
 + (BOOL)resolveInstanceMethod:(SEL)sel {
     if (sel == @selector(info)) {
-        class_addMethod([self class], sel, (IMP)methodInfo, "v@:");
+//        class_addMethod([self class], sel, (IMP)methodInfo, "v@:");
         return [super resolveInstanceMethod:sel];
     }
-    return NO;
+    return YES;
 }
 
 void methodInfo(id obj, SEL _cmd) {

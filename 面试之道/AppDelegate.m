@@ -44,8 +44,8 @@
 //    LibController *vc = [LibController new];
 //    CellReuseController *vc = [CellReuseController new];
 //    DesignModeController *vc = [DesignModeController new];
-//    RuntimeController *vc = [RuntimeController new];
-    CallDirectoryController *vc = [CallDirectoryController new];
+    RuntimeController *vc = [RuntimeController new];
+//    CallDirectoryController *vc = [CallDirectoryController new];
     UINavigationController *navi = [[UINavigationController alloc] initWithRootViewController:vc];
     self.window.rootViewController = navi;
     [self.window makeKeyAndVisible];
