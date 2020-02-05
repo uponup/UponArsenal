@@ -20,6 +20,8 @@
 #import "PrivatePodsController.h"
 #import "RuntimeController.h"
 #import "CallDirectoryController.h"
+#import "UserCenter.h"
+#import "GroupObject.h"
 
 #import <UserNotifications/UserNotifications.h>
 
@@ -63,8 +65,36 @@
     NSLog(@"local: %@", localDic);
 #endif
     
+    
+    // 多读单写
+//    [self userCenterMethod];
+    
+    // dispatch group
+    [self groupObjectMethod];
+    
+    
     return YES;
 }
+
+- (void)userCenterMethod {
+    UserCenter *user = [[UserCenter alloc] init];
+    for (NSInteger i=0; i<100; i++) {
+        dispatch_async(dispatch_get_global_queue(0, 0), ^{
+            [user setObject:@(i) forKey:@"age"];
+            NSLog(@"写成功：%@", @(i));
+        });
+    }
+    
+    NSInteger age = [[user objectForKey:@"age"] integerValue];
+    NSLog(@"%@", @(age));
+}
+
+- (void)groupObjectMethod {
+    GroupObject *obj = [[GroupObject alloc] init];
+    [obj handle];
+}
+
+
 //iOS > 10
 - (void)userNotificationCenter:(UNUserNotificationCenter *)center willPresentNotification:(UNNotification *)notification withCompletionHandler:(void (^)(UNNotificationPresentationOptions))completionHandler{
     NSLog(@"willPresent：%@", notification);
