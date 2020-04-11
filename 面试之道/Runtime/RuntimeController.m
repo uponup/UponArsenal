@@ -10,7 +10,10 @@
 #import "Son.h"
 #import <objc/runtime.h>
 
+#import "GeoObject.h"
+
 @interface RuntimeController ()
+@property (nonatomic, strong) GeoObject *obj;
 
 @end
 
@@ -21,7 +24,25 @@
 
     [self demo001];
 //    [self demo002];
+    
+    // 反地理编码
+    [self geoObjectMethod];
 }
+
+- (void)geoObjectMethod {
+    self.obj = [[GeoObject alloc] init];
+    
+    
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        for (NSInteger i=0; i<1; i++) {
+            [NSThread sleepForTimeInterval:1];
+            [self.obj currentGeocoder];
+            [self.obj reverseGeocoder];
+        }
+    });
+}
+
+
 
 #pragma mark - 1、消息转发
 - (void)demo001 {

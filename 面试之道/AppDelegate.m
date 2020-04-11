@@ -22,6 +22,8 @@
 #import "CallDirectoryController.h"
 #import "UserCenter.h"
 #import "GroupObject.h"
+#import "GeoObject.h"
+#import "ChainObject.h"
 
 #import <UserNotifications/UserNotifications.h>
 
@@ -36,7 +38,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc] init];
     self.window.backgroundColor = [UIColor whiteColor];
-//    AnimationController *vc = [AnimationController new];
+    AnimationController *vc = [AnimationController new];
 //    JPWebController *vc = [JPWebController new];
 //    WkWebViewController *vc = [WkWebViewController new];
 //    CustomWebController *vc = [CustomWebController new];
@@ -46,7 +48,7 @@
 //    LibController *vc = [LibController new];
 //    CellReuseController *vc = [CellReuseController new];
 //    DesignModeController *vc = [DesignModeController new];
-    RuntimeController *vc = [RuntimeController new];
+//    RuntimeController *vc = [RuntimeController new];
 //    CallDirectoryController *vc = [CallDirectoryController new];
     UINavigationController *navi = [[UINavigationController alloc] initWithRootViewController:vc];
     self.window.rootViewController = navi;
@@ -70,10 +72,31 @@
 //    [self userCenterMethod];
     
     // dispatch group
-    [self groupObjectMethod];
+//    [self groupObjectMethod];
     
+    [self chainObjectMethod];
     
     return YES;
+}
+
+- (void)chainObjectMethod {
+    ChainObject *obj1 = [[ChainObject alloc] initWithUrl:@"a"];
+    ChainObject *obj2 = [[ChainObject alloc] initWithUrl:@"b"];
+    ChainObject *obj3 = [[ChainObject alloc] initWithUrl:@"c"];
+    
+//    obj1.nextResponder = obj2;
+//    obj2.nextResponder = obj3;
+
+    obj3.nextResponder = obj1;
+    obj1.nextResponder = obj2;
+    
+    [obj1 handle:^(ChainObject *obj, BOOL handled) {
+        [obj print];
+    }];
+    
+    [obj3 handle:^(ChainObject *obj, BOOL handled) {
+        [obj print];
+    }];
 }
 
 - (void)userCenterMethod {

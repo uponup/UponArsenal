@@ -36,12 +36,18 @@
 		390D01D22213050B0099C030 /* Espresso.m in Sources */ = {isa = PBXBuildFile; fileRef = 390D01D12213050B0099C030 /* Espresso.m */; };
 		390D01D62213067A0099C030 /* Milk.m in Sources */ = {isa = PBXBuildFile; fileRef = 390D01D52213067A0099C030 /* Milk.m */; };
 		390D01D9221307CE0099C030 /* Mocha.m in Sources */ = {isa = PBXBuildFile; fileRef = 390D01D8221307CE0099C030 /* Mocha.m */; };
+		390D957123F5791300304A06 /* ProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 390D957023F5791300304A06 /* ProgressView.m */; };
 		390FD6EB21E7828D005B0032 /* 与JS的交互.html in Sources */ = {isa = PBXBuildFile; fileRef = 390FD6EA21E7828D005B0032 /* 与JS的交互.html */; };
 		390FD6EF21E7869E005B0032 /* WkWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 390FD6EE21E7869E005B0032 /* WkWebViewController.m */; };
 		390FD6F321E788BD005B0032 /* demo2.html in Resources */ = {isa = PBXBuildFile; fileRef = 390FD6F221E788BD005B0032 /* demo2.html */; };
 		392497E6220290C8002C3468 /* TicketManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 392497E5220290C8002C3468 /* TicketManager.m */; };
 		392497E922030A07002C3468 /* TaskSingle.m in Sources */ = {isa = PBXBuildFile; fileRef = 392497E822030A07002C3468 /* TaskSingle.m */; };
 		392497EC22030DEC002C3468 /* CustomOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 392497EB22030DEC002C3468 /* CustomOperation.m */; };
+		392DF84D23EA46570054BE3C /* UserCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 392DF84923EA46570054BE3C /* UserCenter.m */; };
+		392DF84E23EA46570054BE3C /* GroupObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 392DF84C23EA46570054BE3C /* GroupObject.m */; };
+		392DF85223EAA7100054BE3C /* GeoObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 392DF85123EAA7100054BE3C /* GeoObject.m */; };
+		392DF85423EAA8BC0054BE3C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 392DF85323EAA8BC0054BE3C /* CoreLocation.framework */; };
+		392DF85C23EEF8A90054BE3C /* ChainObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 392DF85B23EEF8A90054BE3C /* ChainObject.m */; };
 		393658A723851B95008EFCC4 /* CallDirectoryManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 393658A623851B95008EFCC4 /* CallDirectoryManager.m */; };
 		393658B12385300C008EFCC4 /* country_allcodes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 393658B02385300C008EFCC4 /* country_allcodes.plist */; };
 		393658B5238533B7008EFCC4 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 393658B2238530E6008EFCC4 /* CoreTelephony.framework */; };
@@ -181,6 +187,8 @@
 		390D01D52213067A0099C030 /* Milk.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Milk.m; sourceTree = "<group>"; };
 		390D01D7221307CE0099C030 /* Mocha.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mocha.h; sourceTree = "<group>"; };
 		390D01D8221307CE0099C030 /* Mocha.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mocha.m; sourceTree = "<group>"; };
+		390D956F23F5791300304A06 /* ProgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProgressView.h; sourceTree = "<group>"; };
+		390D957023F5791300304A06 /* ProgressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProgressView.m; sourceTree = "<group>"; };
 		390FD6EA21E7828D005B0032 /* 与JS的交互.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "与JS的交互.html"; sourceTree = "<group>"; };
 		390FD6ED21E7869E005B0032 /* WkWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WkWebViewController.h; sourceTree = "<group>"; };
 		390FD6EE21E7869E005B0032 /* WkWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WkWebViewController.m; sourceTree = "<group>"; };
@@ -191,6 +199,15 @@
 		392497E822030A07002C3468 /* TaskSingle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaskSingle.m; sourceTree = "<group>"; };
 		392497EA22030DEC002C3468 /* CustomOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomOperation.h; sourceTree = "<group>"; };
 		392497EB22030DEC002C3468 /* CustomOperation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomOperation.m; sourceTree = "<group>"; };
+		392DF84923EA46570054BE3C /* UserCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserCenter.m; sourceTree = "<group>"; };
+		392DF84A23EA46570054BE3C /* GroupObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupObject.h; sourceTree = "<group>"; };
+		392DF84B23EA46570054BE3C /* UserCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserCenter.h; sourceTree = "<group>"; };
+		392DF84C23EA46570054BE3C /* GroupObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupObject.m; sourceTree = "<group>"; };
+		392DF85023EAA7100054BE3C /* GeoObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeoObject.h; sourceTree = "<group>"; };
+		392DF85123EAA7100054BE3C /* GeoObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeoObject.m; sourceTree = "<group>"; };
+		392DF85323EAA8BC0054BE3C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		392DF85A23EEF8A90054BE3C /* ChainObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChainObject.h; sourceTree = "<group>"; };
+		392DF85B23EEF8A90054BE3C /* ChainObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChainObject.m; sourceTree = "<group>"; };
 		393658A523851B95008EFCC4 /* CallDirectoryManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CallDirectoryManager.h; sourceTree = "<group>"; };
 		393658A623851B95008EFCC4 /* CallDirectoryManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CallDirectoryManager.m; sourceTree = "<group>"; };
 		393658A9238521E9008EFCC4 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
@@ -262,6 +279,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				392DF85423EAA8BC0054BE3C /* CoreLocation.framework in Frameworks */,
 				393658B5238533B7008EFCC4 /* CoreTelephony.framework in Frameworks */,
 				4883DB86EB4E5B31F72EA8AF /* libPods-面试之道.a in Frameworks */,
 				3905646A2204355500834FC5 /* JPFramework.framework in Frameworks */,
@@ -296,6 +314,7 @@
 		390564052203E72C00834FC5 /* 设计模式 */ = {
 			isa = PBXGroup;
 			children = (
+				392DF85523EEECC50054BE3C /* 责任链模式 */,
 				390564062203E75900834FC5 /* DesignModeController.h */,
 				390564072203E75900834FC5 /* DesignModeController.m */,
 				390564082203E75900834FC5 /* DesignModeController.xib */,
@@ -350,6 +369,7 @@
 				3905711E21E03D1E0061F6F8 /* AnimationController.h */,
 				3905711F21E03D1E0061F6F8 /* AnimationController.m */,
 				3905712021E03D1E0061F6F8 /* AnimationController.xib */,
+				390D956E23F5790000304A06 /* views */,
 			);
 			path = "动画";
 			sourceTree = "<group>";
@@ -427,6 +447,15 @@
 			path = "装饰模式";
 			sourceTree = "<group>";
 		};
+		390D956E23F5790000304A06 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				390D956F23F5791300304A06 /* ProgressView.h */,
+				390D957023F5791300304A06 /* ProgressView.m */,
+			);
+			name = views;
+			sourceTree = "<group>";
+		};
 		390FD6EC21E78601005B0032 /* WebView的交互 */ = {
 			isa = PBXGroup;
 			children = (
@@ -435,6 +464,35 @@
 				390FD6EE21E7869E005B0032 /* WkWebViewController.m */,
 			);
 			path = "WebView的交互";
+			sourceTree = "<group>";
+		};
+		392DF84823EA46570054BE3C /* GCD相关 */ = {
+			isa = PBXGroup;
+			children = (
+				392DF84923EA46570054BE3C /* UserCenter.m */,
+				392DF84A23EA46570054BE3C /* GroupObject.h */,
+				392DF84B23EA46570054BE3C /* UserCenter.h */,
+				392DF84C23EA46570054BE3C /* GroupObject.m */,
+			);
+			path = "GCD相关";
+			sourceTree = "<group>";
+		};
+		392DF84F23EAA6FA0054BE3C /* Geo */ = {
+			isa = PBXGroup;
+			children = (
+				392DF85023EAA7100054BE3C /* GeoObject.h */,
+				392DF85123EAA7100054BE3C /* GeoObject.m */,
+			);
+			path = Geo;
+			sourceTree = "<group>";
+		};
+		392DF85523EEECC50054BE3C /* 责任链模式 */ = {
+			isa = PBXGroup;
+			children = (
+				392DF85A23EEF8A90054BE3C /* ChainObject.h */,
+				392DF85B23EEF8A90054BE3C /* ChainObject.m */,
+			);
+			path = "责任链模式";
 			sourceTree = "<group>";
 		};
 		393658A423851B78008EFCC4 /* Manager */ = {
@@ -555,6 +613,8 @@
 				394B01DC21DE3E39003F5210 /* AppDelegate.m */,
 				394B01DE21DE3E39003F5210 /* ViewController.h */,
 				394B01DF21DE3E39003F5210 /* ViewController.m */,
+				392DF84F23EAA6FA0054BE3C /* Geo */,
+				392DF84823EA46570054BE3C /* GCD相关 */,
 				393658BE2386688A008EFCC4 /* 数据库事务 */,
 				39D4A8AC2384E52300D8CB35 /* 电话拦截 */,
 				39732C6E235D858E00C7DEC8 /* Utils */,
@@ -678,6 +738,7 @@
 		8D4A20143B35BDDF59A655BD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				392DF85323EAA8BC0054BE3C /* CoreLocation.framework */,
 				393658B2238530E6008EFCC4 /* CoreTelephony.framework */,
 				91737A42EA82076715B59CC0 /* libPods-面试之道.a */,
 			);
@@ -916,6 +977,7 @@
 				39084A3621F9D25800E2AA8A /* NativeNotificationController.m in Sources */,
 				390FD6EB21E7828D005B0032 /* 与JS的交互.html in Sources */,
 				394A420E221A3D7D00031585 /* ResponeLinkController.m in Sources */,
+				392DF84E23EA46570054BE3C /* GroupObject.m in Sources */,
 				390D01C7221301210099C030 /* GaGaQuack.m in Sources */,
 				39C2AC6121E847F600AC1524 /* CustomWebController.m in Sources */,
 				390564092203E75900834FC5 /* DesignModeController.m in Sources */,
@@ -938,6 +1000,7 @@
 				393658C423866BB7008EFCC4 /* FileDB.m in Sources */,
 				3905642A220425B300834FC5 /* LibController.m in Sources */,
 				393658A723851B95008EFCC4 /* CallDirectoryManager.m in Sources */,
+				392DF85C23EEF8A90054BE3C /* ChainObject.m in Sources */,
 				392497E922030A07002C3468 /* TaskSingle.m in Sources */,
 				3905712121E03D1E0061F6F8 /* AnimationController.m in Sources */,
 				390D01D62213067A0099C030 /* Milk.m in Sources */,
@@ -951,10 +1014,13 @@
 				390D01CA221301300099C030 /* GuGuQuack.m in Sources */,
 				3907D0FE21EED061000B97AA /* RunLoopController.m in Sources */,
 				390D01CD2213019B0099C030 /* MallardDuck.m in Sources */,
+				390D957123F5791300304A06 /* ProgressView.m in Sources */,
 				394A4212221A404000031585 /* CustomButton.m in Sources */,
 				390CCDF72205128A00D9879E /* ViewReusePool.m in Sources */,
+				392DF85223EAA7100054BE3C /* GeoObject.m in Sources */,
 				394B01DD21DE3E39003F5210 /* AppDelegate.m in Sources */,
 				39478EC221E4B61200C31A51 /* JPWebController.m in Sources */,
+				392DF84D23EA46570054BE3C /* UserCenter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1137,6 +1203,7 @@
 			baseConfigurationReference = 1691C6625376885181C32095 /* Pods-面试之道.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
 				CODE_SIGN_ENTITLEMENTS = "面试之道/面试之道.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
@@ -1186,6 +1253,7 @@
 			baseConfigurationReference = D5E6FA38DDFD289AA077DEC2 /* Pods-面试之道.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
 				CODE_SIGN_ENTITLEMENTS = "面试之道/面试之道.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
